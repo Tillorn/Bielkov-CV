@@ -1,0 +1,225 @@
+:root {
+    --dark-text-color: #212121;
+    --light-text-color: #f5f7fa;
+    --dark-grey-text-color: #595959;
+    --light-grey-text-color: #A8A8A8;
+    --accent-color: #d63e30;
+    --background-light: #f5f7fa;
+    --background-dark: #1E2939;
+    
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--background-light);
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    color: transparent;
+    font-size: 0;
+}
+
+.border {
+    border-bottom: 1px solid var(--light-grey-text-color);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+  
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Main styles */
+    .main-content {
+        background-color: #FFFFFF;
+        padding: 88px;
+        overflow: auto;
+    }
+
+    .username {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        color: var(--dark-text-color);
+        margin: 0 0 25px 0px;
+    }
+
+    .position {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        color: var(--dark-text-color);
+        margin: 0 0 96px 0;
+    }
+    
+
+    /* Goal styles */
+        .goal{
+            margin: 0 0 48px 0;            
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.25;
+            color: var(--dark-text-color);
+            }
+
+        .goal-text {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+            color: var(--dark-text-color);    
+        }
+
+
+    /* Employment styles */
+        .work,
+        .education,
+        .courses{
+            margin: 0 0 48px 0;
+        }
+
+        .work-position,
+        .organization,
+        .institution {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+            color: var(--dark-text-color);
+            margin: 0 0 10px 0;
+        }
+
+        .organization,
+        .institution {
+            color: var(--accent-color);
+        }
+
+        .specialty {
+           font-weight: 700;
+            font-size: 14px;
+            line-height: 1.25;
+            color: var(--dark-text-color);
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        .period {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.25;
+            color: var(--light-grey-text-color);
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        .pipe {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.25;
+            color: var(--dark-text-color);
+        }
+
+        .work-list {
+            padding-left: 0px;
+            margin: 0 0 24px 16px;
+        }
+
+        .work-list-item,
+        .link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--dark-grey-text-color);
+        }
+
+        .link:hover,
+        .contact-link:hover,
+        .link:focus,
+        .contact-link:focus {
+            color: var(--accent-color);
+        }
+
+     
+/* Sidebar styles */
+    .sidebar {
+        background: rgb(30, 41, 57);
+        background: linear-gradient(180deg, rgba(30, 41, 57, 1) 0%, rgba(89, 89, 89, 1) 100%);
+        width: 220px;
+        padding: 138px 62px 0 62px;
+    }
+   
+    .sidebar-title {
+        color: var(--light-text-color);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.25;
+    }
+    
+    .contacts {
+        padding-bottom: 50px;
+    }
+
+    .contacts-list,
+    .languages-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .language-skills {
+        padding-bottom: 48px;
+    }
+
+    .cotact-type,
+    .language {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--light-text-color);
+        margin: 0 0 16px 0;
+    }
+
+    .cotact-item {
+        margin-top: 0;
+    }
+
+    .contact-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--light-grey-text-color);
+        text-decoration: none;
+    }
+
+  
+    .language-skills-item{
+        padding: 0;
+        margin: 0;
+        color: var(--light-grey-text-color);
+    }
+
+    .soft-skills-list {
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+    .skills-dot {
+        color: var(--accent-color);
+    }
+
+    .skills-list-text {
+        color: var(--light-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    }
